@@ -1,0 +1,107 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background: #BBBBBB;
+    /*Cor de fundo*/
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+
+nav li {
+    display: inline;
+    /* Deixa o conteúdo ao lado */
+    margin: 0 0 0 30px;
+    /* Aumenta o espaçamento entre os nomes*/
+}
+
+nav a {
+    text-transform: uppercase;
+    /* Aumenta todos os caracteres*/
+    color: #000000;
+    /* Deixa a cor do conteúdo preto*/
+    font-weight: bold;
+    /*Deixa em negrito*/
+    font-size: 30px;
+    text-decoration: none;
+    /*Retirada do sublinhado*/
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    /*Margem pra cima e zerada e (esqueda e direita) automatica*/
+    padding: 50px 0;
+    /* Distancia entre o conteudo e o elemento*/
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /*Posicionamento de texto*/
+    margin: 0 12px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.produtos li:hover {
+    /* Muda a cor da borda quando o mouse passa por cima*/
+    border-color: rgb(51, 233, 6);
+}
+
+.produtos li:active {
+    /*Muda a cor da borda quando o objeto e clickado*/
+    border-color: rgb(8, 127, 238);
+}
+
+.produtos li:hover h2 {
+    font-size: 28px;
+}
+
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 15px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: #CCCCCC;
+    padding: 40px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    margin: 20px 0 0;
+}

@@ -1,0 +1,150 @@
+    body {
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    header {
+        background: #BBBBBB;
+        /*Cor de fundo*/
+        padding: 20px 0;
+    }
+    
+    .caixa {
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+    }
+    
+    nav {
+        position: absolute;
+        top: 100px;
+        right: 150px;
+    }
+    
+    nav li {
+        display: inline;
+        /* Deixa o conteúdo ao lado */
+        margin: 0 0 0 30px;
+        /* Aumenta o espaçamento entre os nomes*/
+    }
+    
+    nav a {
+        text-transform: uppercase;
+        /* Aumenta todos os caracteres*/
+        color: #000000;
+        /* Deixa a cor do conteúdo preto*/
+        font-weight: bold;
+        /*Deixa em negrito*/
+        font-size: 30px;
+        text-decoration: none;
+        /*Retirada do sublinhado*/
+    }
+    
+    nav a:hover {
+        color: #ffffff;
+        /* Quando passa o mouse por cima da o efeito branco*/
+        text-decoration: underline;
+    }
+    /** css pagina inicial**/
+    
+    .banner {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        opacity: 90%;
+        /*Ocupa 100% da tela, com o cover consegui ajustar a imagem*/
+    }
+    
+    .titulo-principal {
+        /*Definição de como o texto irá ficar*/
+        text-align: center;
+        font-size: 2em;
+        margin: 0 0 1em;
+        clear: left;
+        font-weight: bold;
+    }
+    
+    .principal {
+        padding: 3em 0;
+        background: #FEFEFE;
+    }
+    
+    .principal p {
+        margin: 0 0 1em;
+        text-align: center;
+    }
+    
+    .principal strong {
+        font-weight: bold;
+    }
+    
+    .principal em {
+        font-style: italic;
+        margin-left: 100px;
+    }
+    
+    .mapa {
+        padding: 3em 0;
+        background: linear-gradient(#FEFEFE, #888888);
+    }
+    
+    .mapa-conteudo {
+        width: 940px;
+        margin: 0 auto;
+    }
+    
+    .mapa p {
+        margin: 0 0 2em;
+        text-align: center;
+    }
+    
+    .beneficios {
+        padding: 3em 0;
+        background: #888888;
+    }
+    
+    .conteudo-beneficios {
+        width: 640px;
+        margin: 0 auto;
+    }
+    
+    .lista-beneficios {
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .itens {
+        line-height: 1.5;
+        /*altura da linha*/
+    }
+    
+    .itens:first-child {
+        font-weight: bold;
+    }
+    
+    .itens:before {
+        content: "⭐";
+        /*Vai adicionar algo antes da nomeação*/
+    }
+    
+    .imagem-beneficios {
+        width: 60%;
+        box-shadow: 10px 10px 10px 0 #000000;
+    }
+    
+    .video {
+        width: 560px;
+        margin: 2em auto;
+        padding: 80px;
+    }
+    
+    footer {
+        text-align: center;
+        background: #CCCCCC;
+        padding: 40px 0;
+    }
+    
+    .copyright {
+        font-size: 13px;
+        margin: 20px 0 0;
+    }
